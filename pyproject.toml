@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "concrete_mathematics"
+version = "0.1.0"
+description = "Solution to concrete mathematics"
+authors = ["Rohit Rawat <rohitrawat2000@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+sphinx = "^2.3"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
