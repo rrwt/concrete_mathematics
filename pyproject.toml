@@ -10,6 +10,8 @@ sphinx = "^2.3"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.4"
+hypothesis = {version = "^5.3", allows-prereleases = true}
+black = {version = "^18.3-alpha.0", allows-prereleases = true}
 
 [build-system]
 requires = ["poetry>=0.12"]
