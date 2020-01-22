@@ -3,7 +3,6 @@ Concrete Mathematics: Solutions
 
 .. toctree::
    :maxdepth: 3
-   :caption: Contents:
 
    1. Recurrent Problems <ch1>
 
